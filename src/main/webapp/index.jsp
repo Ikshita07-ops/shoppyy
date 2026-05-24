@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classy Shopping App</title>
+  <title>Shoppyy</title>
   <style>
-    /* General Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      background: linear-gradient(to right, #f0f4ff, #e8f5e9);
       color: #333;
     }
 
@@ -20,8 +19,9 @@
       justify-content: space-between;
       align-items: center;
       padding: 15px 40px;
-      background: #0d47a1;
-      color: white;
+      background: #e3f2fd;   /* lighter classy box */
+      color: #0d47a1;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     nav h1 {
       font-size: 1.5rem;
@@ -37,15 +37,15 @@
       transition: 0.3s;
     }
     nav ul li:hover {
-      color: #ffeb3b;
+      color: #1565c0;
     }
 
     /* Hero Section */
     .hero {
       text-align: center;
       padding: 60px 20px;
-      background: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') no-repeat center/cover;
-      color: white;
+      background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb') no-repeat center/cover;
+      color: #333;
     }
     .hero h2 {
       font-size: 2.5rem;
@@ -57,7 +57,8 @@
     }
     .hero button {
       padding: 12px 25px;
-      background: #ffeb3b;
+      background: #0d47a1;
+      color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -65,7 +66,7 @@
       transition: 0.3s;
     }
     .hero button:hover {
-      background: #fbc02d;
+      background: #1565c0;
     }
 
     /* Search Bar */
@@ -125,22 +126,13 @@
     .product button:hover {
       background: #1565c0;
     }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #0d47a1;
-      color: white;
-      margin-top: 30px;
-    }
   </style>
 </head>
 <body>
 
   <!-- Navbar -->
   <nav>
-    <h1>ShopEase</h1>
+    <h1>Shoppyy</h1>
     <ul>
       <li>Home</li>
       <li>Categories</li>
@@ -182,11 +174,6 @@
       <button onclick="addToCart('Leather Bag')">Add to Cart</button>
     </div>
   </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 ShopEase. All rights reserved.</p>
-  </footer>
 
   <script>
     function addToCart(item) {
