@@ -156,19 +156,19 @@
   <!-- Product Grid -->
   <section class="products" id="product-list">
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Shoes">
+      <img src="https://www.bing.com/th?id=OPAC.V%2fTM%2br4uTP%2f8jw474C474&o=5&pid=21.1&w=128&h=128&rs=1&qlt=100&dpr=1.5&o=2&bw=6&bc=FFFFFF" alt="Shoes">
       <h3>Running Shoes</h3>
       <p>$59.99</p>
       <button onclick="addToCart('Running Shoes')">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Watch">
+      <img src="https://thfvnext.bing.com/th/id/OIP.Rm1EhVRgl-orrh87sYJK3AHaHa?w=155&h=180&c=7&r=0&o=7&cb=thfvnextfalcon&dpr=1.5&pid=1.7&rm=3" alt="Watch">
       <h3>Smart Watch</h3>
       <p>$129.99</p>
       <button onclick="addToCart('Smart Watch')">Add to Cart</button>
     </div>
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Bag">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.B-cIyOpPctLQ6fRkV5yAMgHaHa?cb=thfvnextfalcon&w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Bag">
       <h3>Leather Bag</h3>
       <p>$89.99</p>
       <button onclick="addToCart('Leather Bag')">Add to Cart</button>
