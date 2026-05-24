@@ -44,7 +44,7 @@
     .hero {
       text-align: center;
       padding: 60px 20px;
-      background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb') no-repeat center/cover;
+      background: url('https://i.pinimg.com/736x/24/6e/e6/246ee638069f1e0a80e8ff769a626c33.jpg') no-repeat center/cover;
       color: #333;
     }
     .hero h2 {
@@ -137,7 +137,7 @@
       <li>Home</li>
       <li>Categories</li>
       <li>Deals</li>
-      <li>Cart 🛒</li>
+      <li>Cart</li>
     </ul>
   </nav>
 
